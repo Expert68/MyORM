@@ -1,4 +1,4 @@
-from Mysql import *
+from 普通版.Mysql import *
 
 class Field:
     def __init__(self,name,column_type,primary_key,default):

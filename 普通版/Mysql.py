@@ -1,4 +1,4 @@
-import settings
+from 普通版 import settings
 
 import pymysql
 
