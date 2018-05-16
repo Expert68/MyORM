@@ -137,8 +137,8 @@ class Model(dict,metaclass=Modelmetaclass):
                 user=User(
 
                 )
-                user
-                getattr(user,'name')
+                # user
+                # getattr(user,'name')
 
                 sql = 'insert into %s(%s) values (%s)' %(self.table_name,','.join(filed),','.join(values))
                 sql = sql.replace('?','%s')
