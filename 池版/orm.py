@@ -132,7 +132,14 @@ class Model(dict,metaclass=Modelmetaclass):
                 #v=name
                 filed.append(v.name)
                 values.append('?')
-                args.append(getattr(self,v.name,None))
+                args= append(getattr(self,'name',None))
+
+                user=User(
+
+                )
+                user
+                getattr(user,'name')
+
                 sql = 'insert into %s(%s) values (%s)' %(self.table_name,','.join(filed),','.join(values))
                 sql = sql.replace('?','%s')
                 ms.execute(sql,args)
